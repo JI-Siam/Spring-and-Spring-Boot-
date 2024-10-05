@@ -1,0 +1,3 @@
+insert into Course(id , name , author) values(121,'Python','AIUB');
+select *from Course;
+delete from Course where name='Python';
