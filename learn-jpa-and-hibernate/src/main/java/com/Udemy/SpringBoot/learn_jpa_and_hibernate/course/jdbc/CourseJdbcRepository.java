@@ -5,6 +5,8 @@ import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Repository;
 
+import com.Udemy.SpringBoot.learn_jpa_and_hibernate.course.Course;
+
 @Repository // stereotype - like component  - repository is used for class which talks or directly interects with database
 public class CourseJdbcRepository {
 	@Autowired
